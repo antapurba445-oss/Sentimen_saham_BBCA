@@ -1,0 +1,19 @@
+# Virtual environment (jangan diunggah, bisa dibuat ulang)
+venv/
+
+# File sementara Python
+__pycache__/
+*.pyc
+
+# Pengaturan editor
+.vscode/
+.ipynb_checkpoints/
+
+# Rahasia (kalau suatu hari memakai API key)
+.env
+
+# Cadangan label buatan skrip pemulih
+data/*.backup.csv
+data/label_asli_aman.csv
+src/fix_csv.py
+src/restore_labels.py
